@@ -13,3 +13,7 @@ body {
     height: 100vh;
     color: white; /* Temporary white characters */
 }
+
+h2, label, input {
+    margin: 12px 24px;
+}
