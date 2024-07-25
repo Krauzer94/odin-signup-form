@@ -24,3 +24,4 @@ This project is intended to give you a chance to flex some of the new items you�
 > 5. The other variation is the selected input, which should have a blue border and subtle box-shadow. This can be done with the `:focus` pseudo-class you’ve learned about in an earlier lesson.
 > 6. Do not worry about making your project look nice on mobile. Responsive design isn’t covered until later in the curriculum.
 > 7. Validating that the password fields match each other requires JavaScript. Using JavaScript to validate forms is covered in a future lesson. For now, just validate each field separately.
+---
