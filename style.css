@@ -26,9 +26,14 @@ input {
 
 /* Blue outline when focused */
 input:focus {
-    border: 1px solid blue;
+    border-color: blue;
     outline: none;
     box-shadow: 2px 2px 4px #909090;
+}
+
+/* Invalid info highlight */
+input:invalid {
+    border-color: red;
 }
 
 /* Submit button */
