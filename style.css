@@ -28,6 +28,7 @@ input {
 input:focus {
     border: 1px solid blue;
     outline: none;
+    box-shadow: 2px 2px 4px #909090;
 }
 
 /* Submit button */
