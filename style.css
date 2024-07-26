@@ -24,6 +24,12 @@ input {
     border-radius: 3px;
 }
 
+/* Blue outline when focused */
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+
 /* Submit button */
 input[type=submit] {
     font-weight: bold;
