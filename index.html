@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h2>Let's do this!</h2>
     <form action="/submit" method="post">
@@ -19,8 +21,14 @@
         <input type="email" name="e-mail" id="e-mail" placeholder="thor@odinson.com"><br>
         <label for="phone-number">PHONE NUMBER:</label><br>
         <input type="tel" name="phone-number" id="phone-number" placeholder="(21) 12345-6789" pattern="\(\d{2}\) \d{5}-\d{4}"><br>
+        <!-- Password and confirm password section -->
+        <label for="password">PASSWORD:<span class="span-required" aria-label="required"> * Required</span></label><br>
+        <input type="password" name="password" id="password" minlength="8" maxlength="16" required><br>
+        <label for="confirm-password">CONFIRM PASSWORD:</label><br>
+        <input type="password" name="confirm-password" id="confirm-password" minlength="8" maxlength="16" required><br>
         <!-- Final submit button field -->
-        <input type="submit" value="Submit">
+        <br><input type="submit" value="Submit"><br>
     </form>
 </body>
+
 </html>
