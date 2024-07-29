@@ -9,14 +9,17 @@
 <body>
     <h2>Let's do this!</h2>
     <form action="/submit" method="post">
+        <!-- First and last name section -->
         <label for="firstname">FIRST NAME:</label><br>
         <input type="text" name="firstname" id="firstname" placeholder="Thor" minlength="2" maxlength="15"><br>
         <label for="lastname">LAST NAME:</label><br>
         <input type="text" name="lastname" id="lastname" placeholder="Odinson" minlength="2" maxlength="15"><br>
+        <!-- E-mail and phone number section -->
         <label for="e-mail">EMAIL:</label><br>
         <input type="email" name="e-mail" id="e-mail" placeholder="thor@odinson.com"><br>
         <label for="phone-number">PHONE NUMBER:</label><br>
         <input type="tel" name="phone-number" id="phone-number" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+        <!-- Final submit button field -->
         <input type="submit" value="Submit">
     </form>
 </body>
