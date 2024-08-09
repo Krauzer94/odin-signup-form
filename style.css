@@ -49,3 +49,9 @@ input[type=submit] {
     font-size: 8px;
     color: red;
 }
+
+.heads-up {
+    padding: 12px 24px;
+    font-size: 20px;
+    max-width: 750px;
+}
