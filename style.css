@@ -55,26 +55,42 @@ input[type=submit] {
 
 /* Odin logo section */
 .image-container {
-    /* Text section */
-    font-size: 120px;
-    font-family: 'Norse';
-    color: white;
+    /* Element positioning */
+    width: 35vw;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
     /* Background image */
     background-image: url('./images/photo.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* Misc */
-    width: 35vw;
+}
+
+/* Logo text */
+.image-container-logo {
+    /* Element positioning */
+    display: flex;
+    align-items: center;
+    /* General text */
+    font-size: 120px;
+    font-family: 'Norse';
+    color: white;
 }
 
 /* Photographer credit */
 .image-container-footer {
+    /* Element positioning */
+    display: flex;
+    align-self: flex-end;
+    padding: 12px 24px;
     /* General text */
-    font-family: 'Arial';
-    font-size: 12px;
-    font-weight: 300;
-    opacity: 0.75;
+    > p, a {
+        color: white;
+        font-family: 'Arial';
+        font-size: 12px;
+        opacity: 0.75;
+    }
     /* Link anchors */
     > a {
         color: white;
