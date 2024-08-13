@@ -68,6 +68,20 @@ input[type=submit] {
     width: 35vw;
 }
 
+/* Photographer credit */
+.image-container-footer {
+    /* General text */
+    font-family: 'Arial';
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 0.75;
+    /* Link anchors */
+    > a {
+        color: white;
+        text-decoration: underline;
+    }
+}
+
 /* Form fields section */
 .form-container {
     width: 65vw;
