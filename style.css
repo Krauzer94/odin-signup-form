@@ -55,8 +55,22 @@ input[type=submit] {
 
 /* Odin logo section */
 .image-container {
+    /* Text section */
     font-size: 120px;
     font-family: 'Norse';
+    color: white;
+    /* Background image */
+    background-image: url('./images/photo.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Misc */
+    width: 35vw;
+}
+
+/* Form fields section */
+.form-container {
+    width: 65vw;
 }
 
 /* Long explanation paragraph */
