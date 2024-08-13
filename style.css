@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* border: 1px solid red; */
 }
 
 /* Main defaults */
@@ -45,11 +46,26 @@ input[type=submit] {
     padding: 6px 24px;
 }
 
+/* Flex both sections */
+.page-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+}
+
+/* Odin logo section */
+.image-container {
+    font-size: 120px;
+    font-family: 'Norse';
+}
+
+/* Remove ASAP */
 .span-required {
     font-size: 8px;
     color: red;
 }
 
+/* Long explanation paragraph */
 .heads-up {
     padding: 12px 24px;
     font-size: 20px;
