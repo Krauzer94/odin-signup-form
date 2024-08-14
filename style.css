@@ -60,6 +60,7 @@ input[type=submit] {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
     /* Background image */
     background-image: url('./images/photo.avif');
     background-size: cover;
@@ -71,11 +72,18 @@ input[type=submit] {
 .image-container-logo {
     /* Element positioning */
     display: flex;
-    align-items: center;
+    justify-content: center;
     /* General text */
     font-size: 120px;
     font-family: 'Norse';
     color: white;
+}
+
+/* Logo text transparent bar */
+.transparent-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 12px;
+    width: 100vw;
 }
 
 /* Photographer credit */
