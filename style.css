@@ -117,3 +117,9 @@ input[type=submit] {
     font-size: 20px;
     max-width: 750px;
 }
+
+/* Input fields manipulation */
+.input-fields {
+    display: flex;
+    flex-flow: column wrap;
+}
