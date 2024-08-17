@@ -26,7 +26,7 @@
             <!-- Both input fields columns -->
             <form class="input-fields" action="/submit" method="post">
                 <!-- First column set of input fields -->
-                <div class="left-fields">
+                <div class="field-columns">
                     <!-- First name -->
                     <label for="firstname">FIRST NAME:</label><br>
                     <input type="text" name="firstname" id="firstname" placeholder="Thor" minlength="2" maxlength="15"><br>
@@ -38,7 +38,7 @@
                     <input type="password" name="password" id="password" minlength="8" maxlength="16" required><br>
                 </div>
                 <!-- Second column set of input fields -->
-                <div class="right-fields">
+                <div class="field-columns">
                     <!-- Last name -->
                     <label for="lastname">LAST NAME:</label><br>
                     <input type="text" name="lastname" id="lastname" placeholder="Odinson" minlength="2" maxlength="15"><br>
@@ -49,8 +49,8 @@
                     <label for="confirm-password">CONFIRM PASSWORD:</label><br>
                     <input type="password" name="confirm-password" id="confirm-password" minlength="8" maxlength="16" required><br>
                 </div>
-                <br><input type="submit" value="Submit"><br>
             </form>
+            <br><input type="submit" value="Submit"><br>
         </div>
     </div>
 </body>

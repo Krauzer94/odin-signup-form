@@ -130,5 +130,9 @@ input[type=submit] {
 /* Input fields manipulation */
 .input-fields {
     display: flex;
-    flex-flow: column wrap;
+}
+
+/* Field column segregation */
+.field-columns {
+    flex: 1;
 }
