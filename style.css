@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* General texts */
