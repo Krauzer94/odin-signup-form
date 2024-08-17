@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 /* General texts */
@@ -53,6 +53,7 @@ input[type=submit] {
     color: white;
     background-color: #606060;
     padding: 6px 24px;
+    width: 20vw;
 }
 
 /* Flex both sections */
@@ -118,6 +119,7 @@ input[type=submit] {
 /* Form fields section */
 .form-container {
     width: 65vw;
+    height: 100vh;
 }
 
 /* Long explanation paragraph */
@@ -130,6 +132,8 @@ input[type=submit] {
 /* Input fields manipulation */
 .input-fields {
     display: flex;
+    height: 70vh;
+    width: 50vw;
 }
 
 /* Field column segregation */
