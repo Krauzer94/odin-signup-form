@@ -135,9 +135,7 @@ input[type=submit] {
 /* Input fields manipulation */
 .input-fields {
     display: flex;
-    padding: 180px 0px;
-    height: 70vh;
-    width: 50vw;
+    justify-content: space-between;
 }
 
 /* Field column segregation */
