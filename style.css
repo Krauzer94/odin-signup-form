@@ -16,6 +16,7 @@
 
 /* Main defaults */
 body {
+    font-weight: 500;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
     display: flex;
     flex-direction: column;
@@ -141,4 +142,9 @@ input[type=submit] {
 /* Field column segregation */
 .field-columns {
     flex: 1;
+}
+
+/* Submit login text tooltip */
+.login-tooltip {
+    padding: 6px 24px;
 }
