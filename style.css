@@ -29,6 +29,10 @@ h2, label, input {
     margin: 12px 24px;
 }
 
+.green-text {
+    color: #596d48;
+}
+
 /* Defaults for all inputs */
 input {
     border: 1px solid #E5E7EB;
