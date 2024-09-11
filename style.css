@@ -114,6 +114,11 @@ input[type=submit] {
     color: white;
 }
 
+/* Odin trademark icon */
+.odin-logo {
+    height: 120px;
+}
+
 /* Logo text transparent bar */
 .transparent-bar {
     background-color: rgba(0, 0, 0, 0.5);
@@ -138,6 +143,10 @@ input[type=submit] {
     > a {
         color: white;
         text-decoration: underline;
+    }
+    /* Tiny-sized logo icon */
+    > img {
+        size: 10%;
     }
 }
 
