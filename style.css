@@ -29,6 +29,17 @@ h2, label, input {
     margin: 12px 24px;
 }
 
+/* Segregate input sizes */
+label {
+    font-size: 12px;
+    margin-bottom: -12px;
+}
+
+input {
+    height: 30px;
+    width: 240px;
+}
+
 /* Heads up title */
 .form-title > h2 {
     font-weight: 645;
@@ -67,6 +78,8 @@ input[type=submit] {
     background-color: #596d48;
     padding: 12px 48px;
     border-radius: 8px;
+    height: 45%;
+    width: 25%;
 }
 
 /* Flex both sections */
