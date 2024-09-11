@@ -136,8 +136,9 @@ input[type=submit] {
 /* Long explanation paragraph */
 .heads-up {
     padding: 12px 24px;
-    font-size: 20px;
+    font-size: 24px;
     max-width: 750px;
+    font-weight: 645;
 }
 
 /* Input fields manipulation */
