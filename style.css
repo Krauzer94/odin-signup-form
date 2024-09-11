@@ -21,7 +21,20 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: #F9FAFB;
+}
+
+/* Segregated inputs box */
+.inputs-box {
+    width: 100%;
+    margin: 24px 0px;
+    padding: 24px 0px;
+    background-color: white;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+    > h2 {
+        font-weight: 645;
+        margin-top: -12px;
+    }
 }
 
 /* General texts */
@@ -78,7 +91,7 @@ input[type=submit] {
     padding: 12px 48px;
     border-radius: 8px;
     height: 45%;
-    width: 25%;
+    width: 220px;
 }
 
 /* Flex both sections */

@@ -25,34 +25,36 @@
                 <p class="heads-up">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
                 <h2>You <i>know</i> you wat to.</h2>
             </div>
-            <h2>Let's do this!</h2>
-            <!-- Both input fields columns -->
-            <form class="input-fields" action="/submit" method="post">
-                <!-- First column set of input fields -->
-                <div class="field-columns">
-                    <!-- First name -->
-                    <label for="firstname">FIRST NAME:</label><br>
-                    <input type="text" name="firstname" id="firstname" placeholder="Thor" minlength="2" maxlength="15"><br>
-                    <!-- E-mail -->
-                    <label for="e-mail">EMAIL:</label><br>
-                    <input type="email" name="e-mail" id="e-mail" placeholder="thor@odinson.com"><br>
-                    <!-- Password -->
-                    <label for="password">PASSWORD:</label><br>
-                    <input type="password" name="password" id="password" minlength="8" maxlength="16" required><br>
-                </div>
-                <!-- Second column set of input fields -->
-                <div class="field-columns">
-                    <!-- Last name -->
-                    <label for="lastname">LAST NAME:</label><br>
-                    <input type="text" name="lastname" id="lastname" placeholder="Odinson" minlength="2" maxlength="15"><br>
-                    <!-- Phone -->
-                    <label for="phone-number">PHONE NUMBER:</label><br>
-                    <input type="tel" name="phone-number" id="phone-number" placeholder="(21) 12345-6789" pattern="\(\d{2}\) \d{5}-\d{4}"><br>
-                    <!-- Password confirm -->
-                    <label for="confirm-password">CONFIRM PASSWORD:</label><br>
-                    <input type="password" name="confirm-password" id="confirm-password" minlength="8" maxlength="16" required><br>
-                </div>
-            </form>
+            <div class="inputs-box">
+                <h2>Let's do this!</h2>
+                <!-- Both input fields columns -->
+                <form class="input-fields" action="/submit" method="post">
+                    <!-- First column set of input fields -->
+                    <div class="field-columns">
+                        <!-- First name -->
+                        <label for="firstname">FIRST NAME</label><br>
+                        <input type="text" name="firstname" id="firstname" placeholder="Thor" minlength="2" maxlength="15"><br>
+                        <!-- E-mail -->
+                        <label for="e-mail">EMAIL</label><br>
+                        <input type="email" name="e-mail" id="e-mail" placeholder="thor@odinson.com"><br>
+                        <!-- Password -->
+                        <label for="password">PASSWORD</label><br>
+                        <input type="password" name="password" id="password" minlength="8" maxlength="16" required><br>
+                    </div>
+                    <!-- Second column set of input fields -->
+                    <div class="field-columns">
+                        <!-- Last name -->
+                        <label for="lastname">LAST NAME</label><br>
+                        <input type="text" name="lastname" id="lastname" placeholder="Odinson" minlength="2" maxlength="15"><br>
+                        <!-- Phone -->
+                        <label for="phone-number">PHONE NUMBER</label><br>
+                        <input type="tel" name="phone-number" id="phone-number" placeholder="(21) 12345-6789" pattern="\(\d{2}\) \d{5}-\d{4}"><br>
+                        <!-- Password confirm -->
+                        <label for="confirm-password">CONFIRM PASSWORD</label><br>
+                        <input type="password" name="confirm-password" id="confirm-password" minlength="8" maxlength="16" required><br>
+                    </div>
+                </form>
+            </div>
             <div class="submit-button">
                 <input type="submit" value="Create account">
                 <p class="login-tooltip">Already have an account? <b class="green-text">Log in</b></p>
