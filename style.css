@@ -29,6 +29,11 @@ h2, label, input {
     margin: 12px 24px;
 }
 
+/* Heads up title */
+.form-title > h2 {
+    font-weight: 645;
+}
+
 .green-text {
     color: #596d48;
 }
@@ -131,6 +136,10 @@ input[type=submit] {
     justify-content: center;
     width: 65vw;
     height: 100vh;
+    /* Thinner form title */
+    > h2 {
+        font-weight: 645;
+    }
 }
 
 /* Long explanation paragraph */
