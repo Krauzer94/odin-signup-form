@@ -32,7 +32,6 @@ h2, label, input {
 /* Segregate input sizes */
 label {
     font-size: 12px;
-    margin-bottom: -12px;
 }
 
 input {
@@ -172,6 +171,9 @@ input[type=submit] {
 /* Field column segregation */
 .field-columns {
     flex: 1;
+    > input {
+        margin-top: 0px;
+    }
 }
 
 /* Submit login text tooltip */
