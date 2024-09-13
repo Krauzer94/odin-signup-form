@@ -196,7 +196,6 @@ input[type=submit] {
 /* Input fields manipulation */
 .input-fields {
     display: flex;
-    justify-content: space-between;
 }
 
 /* Field column segregation */
@@ -206,10 +205,6 @@ input[type=submit] {
     > input {
         margin-top: 0px;
     }
-}
-
-#second-column {
-    margin-left: -240px;
 }
 
 /* Submit login text tooltip */
