@@ -208,6 +208,10 @@ input[type=submit] {
     }
 }
 
+#second-column {
+    margin-left: -240px;
+}
+
 /* Submit login text tooltip */
 .login-tooltip {
     padding: 6px 24px;
