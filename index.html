@@ -2,62 +2,66 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="page-container">
-        <!-- Image and logo section -->
-        <div class="image-container">
-            <div class="transparent-bar">
-                <p class="image-container-logo"><img class="odin-logo" src="./images/odin-lined.png">ODIN</p>
-            </div>
-            <div class="image-container-footer">
-                <p>Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank">Halie West</a> on <a href="https://unsplash.com/" target="_blank">Unplash</a></p>
-            </div>
-        </div>
-        <!-- Form specific section -->
-        <div class="form-container">
-            <div class="form-title">
-                <p class="heads-up">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
-                <h2>You <i>know</i> you wat to.</h2>
-            </div>
-            <div class="inputs-box">
-                <h2 class="middle-card-title">Let's do this!</h2>
-                <form class="input-fields" action="/submit" method="post">
-                    <section>
-                        <!-- First column set of input fields -->
-                        <div class="field-columns">
-                            <label for="firstname">FIRST NAME</label><br>
-                            <input type="text" name="firstname" id="firstname" placeholder="Thor" minlength="2" maxlength="15"><br>
-                            <label for="e-mail">EMAIL</label><br>
-                            <input type="email" name="e-mail" id="e-mail" placeholder="thor@odinson.com"><br>
-                            <label for="password">PASSWORD</label><br>
-                            <input type="password" name="password" id="password" minlength="8" maxlength="16" required><br>
-                        </div>
-                    </section>
-                    <section>
-                        <!-- Second column set of input fields -->
-                        <div class="field-columns">
-                            <label for="lastname">LAST NAME</label><br>
-                            <input type="text" name="lastname" id="lastname" placeholder="Odinson" minlength="2" maxlength="15"><br>
-                            <label for="phone-number">PHONE NUMBER</label><br>
-                            <input type="tel" name="phone-number" id="phone-number" placeholder="(21) 12345-6789" pattern="\(\d{2}\) \d{5}-\d{4}"><br>
-                            <label for="confirm-password">CONFIRM PASSWORD</label><br>
-                            <input type="password" name="confirm-password" id="confirm-password" minlength="8" maxlength="16" required><br>
-                        </div>
-                    </section>
-                </form>
-            </div>
-            <div class="submit-button">
-                <input type="submit" value="Create account">
-                <p class="login-tooltip">Already have an account? <b class="green-text">Log in</b></p>
-            </div>
-        </div>
+  <div class="page-container">
+    <!-- Image and logo section -->
+    <div class="image-container">
+      <div class="transparent-bar">
+        <p class="image-container-logo"><img class="odin-logo" src="./images/odin-lined.png">ODIN</p>
+      </div>
+      <div class="image-container-footer">
+        <p>Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank">Halie West</a> on <a
+            href="https://unsplash.com/" target="_blank">Unplash</a></p>
+      </div>
     </div>
+    <!-- Form specific section -->
+    <div class="form-container">
+      <div class="form-title">
+        <p class="heads-up">This is not a real online service! You know you need something like this in your life to
+          help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
+        <h2>You <i>know</i> you wat to.</h2>
+      </div>
+      <div class="inputs-box">
+        <h2 class="middle-card-title">Let's do this!</h2>
+        <form class="input-fields" action="/submit" method="post">
+          <section>
+            <!-- First column set of input fields -->
+            <div class="field-columns">
+              <label for="firstname">FIRST NAME</label><br>
+              <input type="text" name="firstname" id="firstname" placeholder="Thor" minlength="2" maxlength="15"><br>
+              <label for="e-mail">EMAIL</label><br>
+              <input type="email" name="e-mail" id="e-mail" placeholder="thor@odinson.com"><br>
+              <label for="password">PASSWORD</label><br>
+              <input type="password" name="password" id="password" minlength="8" maxlength="16" required><br>
+            </div>
+          </section>
+          <section>
+            <!-- Second column set of input fields -->
+            <div class="field-columns">
+              <label for="lastname">LAST NAME</label><br>
+              <input type="text" name="lastname" id="lastname" placeholder="Odinson" minlength="2" maxlength="15"><br>
+              <label for="phone-number">PHONE NUMBER</label><br>
+              <input type="tel" name="phone-number" id="phone-number" placeholder="(21) 12345-6789"
+                pattern="\(\d{2}\) \d{5}-\d{4}"><br>
+              <label for="confirm-password">CONFIRM PASSWORD</label><br>
+              <input type="password" name="confirm-password" id="confirm-password" minlength="8" maxlength="16"
+                required><br>
+            </div>
+          </section>
+        </form>
+      </div>
+      <div class="submit-button">
+        <input type="submit" value="Create account">
+        <p class="login-tooltip">Already have an account? <b class="green-text">Log in</b></p>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
