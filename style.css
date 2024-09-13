@@ -57,6 +57,10 @@ input {
     font-weight: 645;
 }
 
+.form-title {
+    padding-left: 20px;
+}
+
 .green-text {
     color: #596d48;
 }
@@ -92,6 +96,10 @@ input[type=submit] {
     border-radius: 8px;
     height: 45%;
     width: 220px;
+}
+
+.submit-button {
+    padding-left: 20px;
 }
 
 /* Flex both sections */
