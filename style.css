@@ -1,213 +1,223 @@
 /* Import Norse font */
 @font-face {
-    font-family: 'Norse Bold';
-    src: url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Norse Bold';
+  src: url('https://cdn.statically.io/gh/TheOdinProject/theodinproject/efdc2888072f409e687d31dc580595dbe4fe0ff4/app/assets/fonts/Norse-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* CSS reset */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    /* border: 1px solid red; */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
 }
 
 /* Main defaults */
 body {
-    font-weight: 500;
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background-color: #F9FAFB;
+  font-weight: 500;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  ;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #F9FAFB;
 }
 
 /* Segregated inputs box */
 .inputs-box {
-    width: 100%;
-    margin: 24px 0px;
-    padding: 24px 0px;
-    background-color: white;
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
-    > h2 {
-        font-weight: 645;
-        margin-top: -12px;
-        padding-left: 20px;
-    }
+  width: 100%;
+  margin: 24px 0px;
+  padding: 24px 0px;
+  background-color: white;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.1);
+
+  >h2 {
+    font-weight: 645;
+    margin-top: -12px;
+    padding-left: 20px;
+  }
 }
 
 /* General texts */
-h2, label, input {
-    margin: 12px 24px;
+h2,
+label,
+input {
+  margin: 12px 24px;
 }
 
 /* Segregate input sizes */
 label {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 input {
-    height: 30px;
-    width: 240px;
+  height: 30px;
+  width: 240px;
 }
 
 /* Heads up title */
-.form-title > h2 {
-    font-weight: 645;
+.form-title>h2 {
+  font-weight: 645;
 }
 
 .form-title {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .green-text {
-    color: #596d48;
+  color: #596d48;
 }
 
 /* Defaults for all inputs */
 input {
-    border: 1px solid #E5E7EB;
-    border-radius: 4px;
-    padding: 6px 12px;
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+  padding: 6px 12px;
 }
 
 /* Blue outline when focused */
 input:focus {
-    border-color: blue;
-    outline: none;
-    box-shadow: 2px 2px 4px #909090;
+  border-color: blue;
+  outline: none;
+  box-shadow: 2px 2px 4px #909090;
 }
 
 /* Invalid info highlight */
 input:invalid {
-    border-color: red;
+  border-color: red;
 }
 
 /* Submit button */
 input[type=submit] {
-    /* Button text */
-    font-weight: bold;
-    font-size: 16px;
-    color: white;
-    /* Color and size */
-    background-color: #596d48;
-    padding: 12px 48px;
-    border-radius: 8px;
-    height: 45%;
-    width: 220px;
+  /* Button text */
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  /* Color and size */
+  background-color: #596d48;
+  padding: 12px 48px;
+  border-radius: 8px;
+  height: 45%;
+  width: 220px;
 }
 
 .submit-button {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 /* Flex both sections */
 .page-container {
-    display: flex;
-    flex-flow: row wrap;
-    width: 100vw;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100vw;
 }
 
 /* Odin logo section */
 .image-container {
-    /* Element positioning */
-    width: 35vw;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    /* Background image */
-    background-image: url('./images/photo.avif');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  /* Element positioning */
+  width: 35vw;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  /* Background image */
+  background-image: url('./images/photo.avif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Logo text */
 .image-container-logo {
-    /* Element positioning */
-    display: flex;
-    justify-content: center;
-    /* General text */
-    font-size: 120px;
-    font-family: 'Norse bold';
-    color: white;
+  /* Element positioning */
+  display: flex;
+  justify-content: center;
+  /* General text */
+  font-size: 120px;
+  font-family: 'Norse bold';
+  color: white;
 }
 
 /* Odin trademark icon */
 .odin-logo {
-    height: 120px;
+  height: 120px;
 }
 
 /* Logo text transparent bar */
 .transparent-bar {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 12px;
-    width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 12px;
+  width: 100vw;
 }
 
 /* Photographer credit */
 .image-container-footer {
-    /* Element positioning */
-    display: flex;
-    align-self: flex-end;
-    padding: 12px 24px;
-    /* General text */
-    > p, a {
-        color: white;
-        font-family: 'Arial';
-        font-size: 12px;
-        opacity: 0.75;
-    }
-    /* Link anchors */
-    > a {
-        color: white;
-        text-decoration: underline;
-    }
-    /* Tiny-sized logo icon */
-    > img {
-        size: 10%;
-    }
+  /* Element positioning */
+  display: flex;
+  align-self: flex-end;
+  padding: 12px 24px;
+
+  /* General text */
+  >p,
+  a {
+    color: white;
+    font-family: 'Arial';
+    font-size: 12px;
+    opacity: 0.75;
+  }
+
+  /* Link anchors */
+  >a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  /* Tiny-sized logo icon */
+  >img {
+    size: 10%;
+  }
 }
 
 /* Form fields section */
 .form-container {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    width: 65vw;
-    height: 100vh;
-    /* Thinner form title */
-    > h2 {
-        font-weight: 645;
-    }
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 65vw;
+  height: 100vh;
+
+  /* Thinner form title */
+  >h2 {
+    font-weight: 645;
+  }
 }
 
 /* Long explanation paragraph */
 .heads-up {
-    padding: 12px 24px;
-    font-size: 24px;
-    max-width: 750px;
-    font-weight: 645;
+  padding: 12px 24px;
+  font-size: 24px;
+  max-width: 750px;
+  font-weight: 645;
 }
 
 /* Input fields manipulation */
 .input-fields {
-    display: flex;
+  display: flex;
 }
 
 /* Field column segregation */
 .field-columns {
-    padding-left: 20px;
-    flex: 1;
-    > input {
-        margin-top: 0px;
-    }
+  padding-left: 20px;
+  flex: 1;
+
+  >input {
+    margin-top: 0px;
+  }
 }
 
 /* Submit login text tooltip */
 .login-tooltip {
-    padding: 6px 24px;
+  padding: 6px 24px;
 }
