@@ -1,5 +1,4 @@
 # Odin Sign-up Form
-TOP Project - Sign-up Form
 
 * Course: [The Odin Project - Full Stack JavaScript](https://www.theodinproject.com/paths/full-stack-javascript)
 * Exercise: [Full Stack JavaScript - Project: Sign-up Form](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
